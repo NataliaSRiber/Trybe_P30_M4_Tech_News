@@ -26,6 +26,7 @@ def search_by_source(source):
     news_list = search_news({"sources": {"$regex": source, "$options": "i"}})
     return [(news["title"], news["url"]) for news in news_list]
 
+
 # Requisito 9
 def search_by_category(category):
     """Seu código deve vir aqui"""
