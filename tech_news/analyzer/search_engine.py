@@ -19,6 +19,7 @@ def search_by_date(date):
     except ValueError:
         raise ValueError("Data inválida")
 
+
 # Requisito 8
 def search_by_source(source):
     """Seu código deve vir aqui"""
