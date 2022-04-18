@@ -70,9 +70,8 @@ def scrape_noticia(html_content):
     }
 
 
-# scrape_noticia(fetch(url1))
-
-
 # Requisito 5
 def get_tech_news(amount):
     """Seu código deve vir aqui"""
+
+# scrape_noticia(fetch(url1))
